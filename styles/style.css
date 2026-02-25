@@ -1,72 +1,93 @@
 .header {
-
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 0 50px;
+    
 }
+
 .menu_title {
-
+    
+     margin: 133px 0 138px;
+    
 }
+
+.list_style {
+    display: flex;
+    gap: 32px;
+    list-style-type: circle;
+    
+}
+
+.major {
+    list-style-type: none;
+}
+
 .logo_title {
 
+
+}
+
+.img_title {
+    /* display: block;*/
+     width: 148px;
+    height: 105px;
+   margin: 92px 0 96px;
+}
+.contacts {
+justify-self: end;
+max-width: 240px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 .contacts_title {
 
 }
+.link {
+list-style-type: none;
+}
+
 .cover {
-
+    background-image: url("../images/cover.jpg");
+    height: 757px;
 }
+
 /* h1? */
-.description {
+.description {}
 
-}
-.text_cover {
+.text_cover {}
 
-}
-.button_cover {
+.button_cover {}
 
-}
-.lots {
+.lots {}
 
-}
-.lots_title {
+.lots_title {}
 
-}
-.director {
+.director {}
 
-}
-.books {
+.books {}
 
-}
-.picture {
+.picture {}
 
-}
-.more {
+.more {}
 
-}
-.about {
+.about {}
 
-}
-.columns {
+.columns {}
 
-}
-.logo_columns {
+.logo_columns {}
 
-}
-.about_columns {
+.about_columns {}
 
-}
-.title_about {
+.title_about {}
 
-}
-.description-block {
+.description-block {}
 
-}
 /* может ли сюда подойти адрес титл???*/
-.contacts_footer {
+.contacts_footer {}
 
-}
 /* Тот же вопрос про меню футера */
-.menu_footer {
+.menu_footer {}
 
-}
-.socials {
-
-}
+.socials {}
