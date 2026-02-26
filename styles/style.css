@@ -6,42 +6,55 @@
     
 }
 
-.menu_title {
+.header_menu {
     
      margin: 133px 0 138px;
     
 }
 
-.list_style {
+.header_links-list {
     display: flex;
     gap: 32px;
     list-style-type: circle;
     
 }
 
-.major {
+.header_links-list-item_no-bullit {
     list-style-type: none;
 }
 
-.logo_title {
+.header_links-list-item_{
+
+}
+
+.header_link {
+
+}
+
+.header_link_active {
+
+}
+
+.header_logo {
 
 
 }
 
-.img_title {
-    /* display: block;*/
-     width: 148px;
+.header_logo-image {
+    display: block;
+    width: 148px;
     height: 105px;
    margin: 92px 0 96px;
 }
-.contacts {
+/* сбросить станд брауз стили*/
+.address {
 justify-self: end;
 max-width: 240px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 }
-.contacts_title {
+.header_address {
 
 }
 .link {
