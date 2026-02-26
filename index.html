@@ -14,25 +14,28 @@
       <nav class="header_menu">
         <ul class="header_links-list">
           <li class="header_links-list-item header_links-list-item_no-bullit">
-            <a class="header_link header_link_active" href="">главная</a>
+            <a class="header_link header_link_active">главная</a>
           </li>
           <li class="header_links-list-item">
-            <a class="header_link" href="">посмотреть лоты</a>
+            <a class="header_link">посмотреть лоты</a>
           </li>
           <li class="header_links-list-item">
-            <a class="header_link" href="">об аукционе</a>
+            <a class="header_link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <div class="header_logo">
-       <a class="/"> <!-- проверитть-->
-      <img
-        class="header_logo-image"
-        src="./images/logo-black.svg"
-        alt="логотип: оно тебе надо"
-      />
-       </a>
-       </div>
+        <a class="/">
+          <!-- проверитть-->
+          <img
+            class="header_logo-image"
+            src="./images/logo-black.svg"
+            alt="логотип: оно тебе надо"
+          />
+        </a>
+      </div>
+      <!--проверить в макете подчеркивания. 
+       Нужен новый класс???-->
       <address class="address header_address">
         <ul class="link">
           <li>
@@ -47,35 +50,75 @@
     </header>
     <main>
       <section class="cover">
-        <div>
-        <h1>
-          <span>оно</span>
-          <span>тебе</span>
-          <span>надо</span>
-        </h1>
-        <div class="description">
-          <p class="text_cover"></p>
-          <button class="button_cover"></button>
+        <div class="overlay"></div>
+        <div class="cover_title">
+          <h1>
+            <span class="aligned-text_left">оно</span>
+            <span class="aligned-text_center">тебе</span>
+            <span class="aligned-text_right">надо</span>
+          </h1>
         </div>
+        <div class="cover_description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots_title"></h2>
-        <ul>
-          <li class="director">
-            <a href="."></a>
-            <article></article>
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
+            </a>
           </li>
-          <li class="books">
-            <a href="."></a>
-            <article></article>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card card_type_book">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
+            </a>
           </li>
-          <li class="picture">
-            <a href="."></a>
-            <article></article>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card card_type_picture">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
+            </a>
           </li>
         </ul>
-        <a class="more" href="."></a>
+        <a class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="columns logo_columns"></div>
