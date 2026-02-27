@@ -61,9 +61,12 @@
     justify-self: end;
 
 }
-
-.link {
+.address_list {
     list-style-type: none;
+}
+
+.address_link {
+
 }
 
 .cover {
@@ -99,13 +102,13 @@
 
 }
 
-.cover__description {
+.cover_description {
 
 }
 
-.cover__description-text {
+.cover_description-text {
     font-family: Raleway sans-serif;
-    font-weight: Regular;
+    font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -115,7 +118,7 @@
 
 .bet-button {
     font-family: Raleway sans-serif;
-    font-weight: Medium;
+    font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -130,7 +133,7 @@
 
 }
 
-.lots__heading {
+.lots_heading {
     font-family: Raleway sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -139,7 +142,7 @@
 
 }
 
-.lots__card-list {
+.lots_card-list {
     list-style-type: none;
     display: flex;
     gap: 25px;
@@ -147,7 +150,7 @@
 
 }
 
-.lots__card-list-item {
+.lots_card-list-item {
     width: 334px;
     min-height: 596px;
     color: #FFFFFF;
@@ -169,7 +172,7 @@
 }
 
 
-.card__title {
+.card_title {
     font-family: Raleway sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -178,9 +181,9 @@
 
 }
 
-.card__text {
+.card_text {
     font-family: Raleway sans-serif;
-    font-weight: Regular;
+    font-weight: 400;
     font-size: 20px;
 
 }
@@ -204,11 +207,11 @@
 }
 
 
-.lots__look-more-link {
+.lots_look-more-link {
     /* Эти стили перенести в основной текст т.к. 
     размер такой же везде */
     font-family: Raleway sans-serif;
-    font-weight: Regular;
+    font-weight: 400;
     font-size: 20px;
     text-decoration: underline;
 }
@@ -219,9 +222,9 @@
     grid-template-rows: 1fr;
 }
 
-.about__column {
+.about_column {
 
-.about__logo {
+.about_logo {
     display: flex;
     justify-self: center;
     align-items: center;
@@ -231,7 +234,7 @@
     height: 240px;
 }
 }
-.about__logo-image {
+.about_logo-image {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -245,7 +248,7 @@
 .title_about {
 }
 
-.about__text {
+.about_text {
 }
 
 .footer {
@@ -264,34 +267,34 @@
 
 }
 
-.footer__menu-list {
+.footer_menu-list {
     list-style-type: none;
 }
 
-.footer__menu-list-item {
+.footer_menu-list-item {
 }
 
-.footer__menu-link {
+.footer_menu-link {
 }
 
-.footer__menu-link_active {
+.footer_menu-link_active {
 }
 
 .socials {
     list-style-type: none;
     display: flex;
-    justify-content:;
+    justify-content: center;
     gap: 48px;
 }
 
-.footer__social-list-item {
+.footer_social-list-item {
 
 }
 
-.footer__social-link {
+.footer_social-link {
 }
 
-.footer__social-icon {
+.footer_social-icon {
     width: 48px;
     height: 48px;
 }
