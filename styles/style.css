@@ -1,32 +1,30 @@
 
-
-
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 0 50px;
-    
+
 }
 
 .header_menu {
-    
-     margin: 133px 0 138px;
-    
+
+    margin: 133px 0 138px;
+
 }
 
 .header_links-list {
     display: flex;
     gap: 32px;
     list-style-type: circle;
-    
+
 }
 
 .header_links-list-item_no-bullit {
     list-style-type: none;
 }
 
-.header_links-list-item_{
+.header_links-list-item_ {
 
 }
 
@@ -47,22 +45,25 @@
     display: block;
     width: 148px;
     height: 105px;
-   margin: 92px 0 96px;
+    margin: 92px 0 96px;
 }
+
 /* сбросить станд брауз стили*/
 .address {
 
-max-width: 240px;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+
 .header_address {
     justify-self: end;
 
 }
+
 .link {
-list-style-type: none;
+    list-style-type: none;
 }
 
 .cover {
@@ -71,12 +72,13 @@ list-style-type: none;
     position: relative;
     z-index: 0;
 }
-.overlay{
-position: absolute;
-z-index: -1;
+
+.overlay {
+    position: absolute;
+    z-index: -1;
 }
 
-.cover_title{
+.cover_title {
     font-family: Raleway sans-serif;
     font-weight: bold;
     font-size: 100px;
@@ -84,6 +86,7 @@ z-index: -1;
     color: #FFFFFF;
 
 }
+
 .aligned-text_left {
 
 }
@@ -106,7 +109,7 @@ z-index: -1;
     font-size: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
-    
+
 
 }
 
@@ -123,7 +126,7 @@ z-index: -1;
 }
 
 .lots {
-    
+
 
 }
 
@@ -132,17 +135,18 @@ z-index: -1;
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
-    
+
 
 }
-.lots__card-list{
+
+.lots__card-list {
     list-style-type: none;
     display: flex;
     gap: 25px;
 
-   
 
 }
+
 .lots__card-list-item {
     width: 334px;
     min-height: 596px;
@@ -150,11 +154,11 @@ z-index: -1;
 }
 
 
-
-.card-link{
+.card-link {
     height: 100%;
 
 }
+
 .card {
     height: 100%;
     display: flex;
@@ -166,11 +170,11 @@ z-index: -1;
 
 
 .card__title {
-font-family: Raleway sans-serif;
-font-weight: bold;
-font-size: 22px;
-text-transform: uppercase;
-text-decoration: underline;
+    font-family: Raleway sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
 
 }
 
@@ -200,7 +204,6 @@ text-decoration: underline;
 }
 
 
-
 .lots__look-more-link {
     /* Эти стили перенести в основной текст т.к. 
     размер такой же везде */
@@ -213,71 +216,80 @@ text-decoration: underline;
 .about {
     display: grid;
     grid-template-columns: 334px auto;
-    
-
-}
-.columns {
-
+    grid-template-rows: 1fr;
 }
 
-.logo_columns {
+.about__column {
+
+.about__logo {
     display: flex;
     justify-self: center;
     align-items: center;
-background-color: #000000;
+    background-color: #000000;
     border-radius: 50%;
     width: 240px;
     height: 240px;
 }
-.about__logo-image{
+}
+.about__logo-image {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 148px;
     height: 114px;
-   
+
 }
-.about_columns {}
 
-.title_about {}
 
-.about__text {}
 
-. footer {
-display: grid;
-grid-template-columns: 1fr 1fr min-content;
-justify-content: space-between;
-align-items: start;
+.title_about {
+}
+
+.about__text {
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr min-content;
+    justify-content: space-between;
+    align-items: start;
 }
 
 /* может ли сюда подойти адрес титл???*/
-.address_footer {}
+.address_footer {
+}
 
 /* Тот же вопрос про меню футера */
 .menu_footer {
-    
+
 }
 
 .footer__menu-list {
     list-style-type: none;
 }
 
-.footer__menu-list-item {}
+.footer__menu-list-item {
+}
 
-.footer__menu-link{}
+.footer__menu-link {
+}
 
-.footer__menu-link_active {}
+.footer__menu-link_active {
+}
+
 .socials {
     list-style-type: none;
     display: flex;
     justify-content:;
     gap: 48px;
 }
+
 .footer__social-list-item {
 
 }
 
-.footer__social-link {}
+.footer__social-link {
+}
 
 .footer__social-icon {
     width: 48px;
