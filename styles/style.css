@@ -1,3 +1,6 @@
+
+
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -48,13 +51,14 @@
 }
 /* сбросить станд брауз стили*/
 .address {
-justify-self: end;
+
 max-width: 240px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 }
 .header_address {
+    justify-self: end;
 
 }
 .link {
@@ -134,12 +138,15 @@ z-index: -1;
 .lots__card-list{
     list-style-type: none;
     display: flex;
+    gap: 25px;
+
    
 
 }
 .lots__card-list-item {
     width: 334px;
     min-height: 596px;
+    color: #FFFFFF;
 }
 
 
@@ -150,14 +157,20 @@ z-index: -1;
 }
 .card {
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
 }
+
 
 .card__title {
 font-family: Raleway sans-serif;
 font-weight: bold;
 font-size: 22px;
 text-transform: uppercase;
+text-decoration: underline;
 
 }
 
@@ -168,11 +181,23 @@ text-transform: uppercase;
 
 }
 
-.card_type_film {}
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-.card_type_book {}
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-.card_type_picture {}
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -182,24 +207,79 @@ text-transform: uppercase;
     font-family: Raleway sans-serif;
     font-weight: Regular;
     font-size: 20px;
+    text-decoration: underline;
 }
 
-.about {}
+.about {
+    display: grid;
+    grid-template-columns: 334px auto;
+    
 
-.columns {}
+}
+.columns {
 
-.logo_columns {}
+}
 
+.logo_columns {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+background-color: #000000;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+.about__logo-image{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 114px;
+   
+}
 .about_columns {}
 
 .title_about {}
 
-.description-block {}
+.about__text {}
+
+. footer {
+display: grid;
+grid-template-columns: 1fr 1fr min-content;
+justify-content: space-between;
+align-items: start;
+}
 
 /* может ли сюда подойти адрес титл???*/
-.contacts_footer {}
+.address_footer {}
 
 /* Тот же вопрос про меню футера */
-.menu_footer {}
+.menu_footer {
+    
+}
 
-.socials {}
+.footer__menu-list {
+    list-style-type: none;
+}
+
+.footer__menu-list-item {}
+
+.footer__menu-link{}
+
+.footer__menu-link_active {}
+.socials {
+    list-style-type: none;
+    display: flex;
+    justify-content:;
+    gap: 48px;
+}
+.footer__social-list-item {
+
+}
+
+.footer__social-link {}
+
+.footer__social-icon {
+    width: 48px;
+    height: 48px;
+}
