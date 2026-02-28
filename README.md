@@ -1,1 +1,1 @@
-https://github.com/InnaKostikova/ono-tebe-nado-fd/blob/main/README.md
+https://github.com/InnaKostikova/ono-tebe-nado-fd/tree/main
