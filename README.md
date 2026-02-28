@@ -1,1 +1,1 @@
-https://github.com/yandex-praktikum/ono-tebe-nado-fd
+https://github.com/InnaKostikova/ono-tebe-nado-fd/blob/main/README.md
