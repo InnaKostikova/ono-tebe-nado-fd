@@ -1,1 +1,1 @@
-https://github.com/InnaKostikova/ono-tebe-nado-fd/tree/main
+https://github.com/InnaKostikova/ono-tebe-nado-fd
