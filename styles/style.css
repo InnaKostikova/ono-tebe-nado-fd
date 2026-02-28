@@ -4,13 +4,10 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 0 50px;
-
 }
 
 .header_menu {
-
     margin: 133px 0 138px;
-
 }
 
 .header_links-list {
@@ -54,14 +51,15 @@
 
 }
 
-/* сбросить станд брауз стили*/
 .address {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-size: 18px;
     font-style: normal;
-    /* проверить должен ли тут быть флекс и флекс старт */
+    text-decoration-thickness: 1px;
+    text-underline-offset: 1px;
+
 }
 
 .header_address {
@@ -69,15 +67,17 @@
     max-width: 240px;
 
 }
+
 .address_list {
     list-style-type: none;
-
+    line-height: 1.4;
 }
-/* адрес уубрать подчеркивание + понизить линию
-подчеркивания */
 
 .address_link {
-    text-decoration-line: underline;
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
 
 .cover {
@@ -85,6 +85,7 @@
     background-position: center;
     background-size: cover;
     min-height: 757px;
+    padding: 165px 50px 50px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -102,10 +103,11 @@
 }
 
 .cover_title {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 100px;
     text-transform: uppercase;
+    letter-spacing: 30px;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -114,6 +116,11 @@
     z-index: 1;
 
 }
+
+.aligned-text {
+    display: block;
+}
+
 
 .aligned-text_left {
     text-align: start;
@@ -128,25 +135,29 @@
     text-align: end;
 }
 
+.aligned-text_no-letter-spacing {
+    letter-spacing: 0;
+
+}
+
 .cover_description {
-display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1;
 }
 
 .cover_description-text {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
     color: #FFFFFF;
-
-
+    word-spacing: 18.5px;
 }
 
 .bet-button {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 500;
     font-size: 22px;
     text-transform: uppercase;
@@ -158,16 +169,16 @@ display: flex;
 }
 
 .lots {
-padding: 74px 0 53px;
-    margin-top: 180px;
+    padding: 180px 24px 120px 24px;
 
 }
 
 .lots_heading {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
+    padding: 0 173px 27px 40px;
 
 
 }
@@ -175,8 +186,9 @@ padding: 74px 0 53px;
 .lots_card-list {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
-
+    margin-bottom: 30px;
 
 }
 
@@ -204,20 +216,22 @@ padding: 74px 0 53px;
 
 
 .card_title {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
     z-index: 1;
+    line-height: 1.2;
 
 }
 
 .card_text {
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     z-index: 1;
+    line-height: 1.2;
 
 }
 
@@ -241,23 +255,27 @@ padding: 74px 0 53px;
 
 
 .lots_look-more-link {
-    /* Эти стили перенести в основной текст т.к. 
-    размер такой же везде */
     margin: 0 0 0 40px;
-    font-family: Raleway sans-serif;
+    font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.5px;
 }
 
 .about {
     display: grid;
     grid-template-columns: 334px auto;
     grid-template-rows: 1fr;
+    gap: 25px;
+
 }
 
 .about_column {
-    padding: 120px 24px 180px 24px;
+    padding: 0 24px 180px 24px;
+
+}
 
 .about_logo {
     display: flex;
@@ -270,19 +288,20 @@ padding: 74px 0 53px;
     margin-top: 35px;
     margin-left: 47px;
 }
-}
+
 .about_logo-image {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    justify-content: center;
     width: 148px;
     height: 114px;
-
 }
-
 
 
 .title_about {
+    padding: 136px 0 100px 0;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .about_text {
@@ -295,18 +314,19 @@ padding: 74px 0 53px;
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr min-content;
+    grid-template-columns: 334px 1fr min-content;
     justify-content: space-between;
     padding: 0 50px 82px 50px;
 }
 
-/* может ли сюда подойти адрес титл???*/
+
 .address_footer {
 }
 
-/* Тот же вопрос про меню футера */
+
 .menu_footer {
     padding: 0 50px;
+
 
 }
 
@@ -318,13 +338,15 @@ padding: 74px 0 53px;
 .footer_menu-list-item {
     font-size: 18px;
     line-height: 100%;
-    text-decoration-line: underline;
+
 }
 
 .footer_menu-link {
+    text-decoration-line: underline;
 }
 
 .footer_menu-link_active {
+    text-decoration-line: none;
 }
 
 .socials {
@@ -334,7 +356,7 @@ padding: 74px 0 53px;
 }
 
 .footer_social-list-item {
-
+    list-style-type: none;
 }
 
 .footer_social-link {
